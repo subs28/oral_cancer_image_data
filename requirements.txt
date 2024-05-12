@@ -1,0 +1,9 @@
+Flask==2.2.5
+pandas==2.2.1
+scikit-learn==1.4.2
+joblib==1.4.0
+tensorflow==2.15.0
+Werkzeug==2.2.3
+numpy==1.26.4
+gunicorn==22.0.0
+pillow==10.3.0
