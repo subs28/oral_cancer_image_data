@@ -14,9 +14,6 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 
 app = Flask(__name__)
 
-model_file = 'model.pkl'
-absolute_model_path = os.path.abspath(model_file)
-rf_model = joblib.load(open(absolute_model_path, 'rb'))
 
 
 def predict_oral_cancer_cl(data):
